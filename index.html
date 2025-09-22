@@ -17,6 +17,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
+  <style>
+  .notice-banner {
+    background: #fff3cd;          /* Bootstrap alert-warning bg */
+    color: #856404;               /* alert-warning text */
+    border-bottom: 1px solid #ffeeba;
+    padding: .75rem 1rem;
+    width: 100%;
+    z-index: 1030;                /* above header backgrounds */
+  }
+
+  /* Optional: make it stick to the top on scroll */
+  .notice-banner.sticky {
+    position: sticky;
+    top: 0;
+  }
+</style>
+
 </head>
 
 <body>
